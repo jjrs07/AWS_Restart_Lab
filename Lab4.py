@@ -1,5 +1,5 @@
 """
-Lab 4 Exercises
+Lab 4 Working with Lists, Tuples, and Dictionaries
 """
 
 
@@ -27,9 +27,6 @@ print(myFinalAnswerTuple[2])
 print(myFinalAnswerTuple[3])
 
 #myFinalAnswerTuple[2] = "cherry"
-
-
-
 
 myFavoriteFruitDictionary = {
   "Akua" : "apple",

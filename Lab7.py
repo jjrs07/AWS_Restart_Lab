@@ -1,5 +1,5 @@
 """
-Lab 7 Execise
+Lab 7 Working with Conditionals
 """
 
 userReply = input("Do you need to ship a package? (Enter yes or no) ")

@@ -1,1 +1,4 @@
-print("Hello I'm "+ "James")
+"""
+Lab 1 Creating a Hello, World Program
+"""
+print("Hello World")

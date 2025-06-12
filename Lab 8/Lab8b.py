@@ -1,5 +1,5 @@
 """
-Lab8.b Exercise
+Lab8.b Writing the for loop
 """
 print("Count to 100!")
 

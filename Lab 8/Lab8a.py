@@ -1,5 +1,5 @@
 """
-Lab 8 Exercise
+Lab 8 Working with Loops
 """
 import random
 

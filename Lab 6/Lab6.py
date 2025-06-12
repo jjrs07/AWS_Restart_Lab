@@ -1,5 +1,6 @@
 """
-Lab6 Exercise
+Lab6 Composite Data Types
+Use the car_fleet.csv file to create a list of dictionaries.
 """
 import csv
 import copy

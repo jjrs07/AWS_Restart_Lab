@@ -1,5 +1,5 @@
 """
-Lab 2 Exercises
+Lab 2 Working with Numeric Data Types
 """
 print("Python has three numeric types: int, float, and complex")
 
