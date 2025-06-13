@@ -1,0 +1,10 @@
+{
+    "name": "Mark",
+    "age": 30,
+    "isCertified": true,
+    "skills": [
+        "AWS",
+        "Python",
+        "GitHub"
+    ]
+}
