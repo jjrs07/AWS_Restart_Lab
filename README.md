@@ -33,11 +33,10 @@ These labs are intended to give you practical, step-by-step exercises that reinf
 2. **Explore by module**
 Labs are organized by topic and difficulty level. Each folder contains:
 
-Clear instructions in README.md
-
+## Clear instructions in README.md  
 Example commands or scripts
 
-Practice exercises
+## Practice exercises
 
 Practice in your own environment
 Use a local Linux VM, VSC, or any Python-enabled IDE for Python labs. SQL labs can be practiced using MySQL.
@@ -54,5 +53,5 @@ Let’s help more people build their cloud foundations, one lab at a time.
 This project is an independent community resource and is not affiliated with AWS or the official AWS re/Start program.
 
 ## Contact
-Got suggestions or feedback?
+Got suggestions or feedback?  
 Reach out via LinkedIn or open an issue
