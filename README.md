@@ -42,23 +42,6 @@ Practice exercises
 Practice in your own environment
 Use a local Linux VM, VSC, or any Python-enabled IDE for Python labs. SQL labs can be practiced using MySQL.
 
-3. **Folder Structure**
-
-aws-restart-labs/
-│
-├── linux/
-│   ├── 01-basic-commands/
-│   └── 02-permissions/
-│
-├── python/
-│   ├── 01-variables/
-│   └── 02-control-flow/
-│
-├── database/
-│   ├── 01-sql-basics/
-│   └── 02-crud-operations/
-└── ...
-
 ## Contributing
 If you have lab exercises you'd like to share, feel free to:
 - Fork this repo
@@ -70,6 +53,6 @@ Let’s help more people build their cloud foundations, one lab at a time.
 ## Disclaimer
 This project is an independent community resource and is not affiliated with AWS or the official AWS re/Start program.
 
-Contact
+## Contact
 Got suggestions or feedback?
 Reach out via LinkedIn or open an issue

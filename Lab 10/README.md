@@ -1,1 +1,0 @@
-# Preparing to Analyze Insulin with Python
