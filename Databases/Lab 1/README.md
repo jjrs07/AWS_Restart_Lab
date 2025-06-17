@@ -1,4 +1,4 @@
-## SQL Scripts
+## Database Table Operations
 
 To run each part of this lab, use the corresponding SQL files in the `/sql` folder.
 
