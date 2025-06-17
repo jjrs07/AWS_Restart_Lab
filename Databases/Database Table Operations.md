@@ -1,4 +1,5 @@
-# Connect to the database
+# Database Table Operations
+## Connect to the database
 
 `mysql -u root --password`
 
