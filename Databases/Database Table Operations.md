@@ -1,9 +1,10 @@
 # Database Table Operations
-## Connect to the database
+## Login to MySQL database
 
 `mysql -u root --password`
 
 `mysql> show databases;`
+
 
 ```sql
 --Create database
@@ -56,12 +57,13 @@ Create a table named city and add two columns named Name and Region. Both column
 CREATE TABLE world.city 
 (
  Name CHAR(52), 
- Region CHAR(26));
+ Region CHAR(26)
+);
+
+
+--Delete a database and tables
+DROP TABLE world.city;
 ```
-
-Delete a database and tables
-
-`DROP TABLE world.city;
 
 ## Challenge 2
 Write a query to drop the country table
