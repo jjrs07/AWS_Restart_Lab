@@ -1,36 +1,48 @@
-## Database Table Operations
+# Lab 1: Database Table Operations
 
-To run each part of this lab, use the corresponding SQL files in the `/sql` (example folder) folder.
+This lab walks you through creating and managing database tables using SQL scripts.
+Each step corresponds to a specific .sql file inside the /sql folder of your project.
 
-# Prerequisites
-1. Ensure that you already provisioned an EC2 instance with Maria DB installed.
-2. Create SQL files in your EC2 example `touch create_world.sql`
-3. Copy the content of the create_world.sql on GitHub to the created file in Linux.
-4. Do the same in othere SQL files
-5. Login to MySQL database and execute the commands below.
+---
+## Prerequisites
+1. You have already provisioned an EC2 instance with MariaDB installed.
+2. Insite your EC2 intance, create a necessary SQL files using the touch command.  
+Exampe: `touch create_world.sql`
+3. Copy the contents of each SQL file from your GitHub repo into the matching file on your EC2 instance.
+4. Repeat this process from the rest of the SQL files (e.g. modify_world.sql, challenge1_city.sql, etc.)
 
-### Show existing Database
+## SQL Execution Steps
+
+### Show existing Database   
 `SHOW DATABASES;`
 
-### Create World Database 
+### Create world Database   
 `CREATE DATABASE world;`
 
-### Create Table country
+### Create country Table  
 `mysql -u root -p < sql/create_world.sql`
 
-### Verify Columns in the Country Table
+### Verify Columns in the country Table  
 `SHOW COLUMNS from country`
 
-### Modify Schema
+###  Modify Schema (Rename Column)  
 `mysql -u root -p world < sql/modify_world.sql`
 
-### Challenge 1 – Create city Table
+###  Challenge 1 – Create city Table  
 `mysql -u root -p world < sql/challenge1_city.sql`
 
-### Verify if the City Table is created
+### Verify if the City Table is created  
 `SHOW TABLES;`
 
-### Challenge 2 – Drop country Table Database
+### Challenge 2 – Drop country Table Database  
 `mysql -u root -p < sql/challenge2_drop.sql`
 
-NOTE: You can also open these SQL files inside a MySQL client or GUI like DBeaver, MySQL Workbench, or phpMyAdmin for step-by-step execution.
+---
+## Alternative Option
+You can also open and execute these SQL files in a MySQL client or GUI tool such as:
+
+- DBeaver
+- MySQL Workbench
+- phpMyAdmin
+
+This allows step-by-step execution and easier syntax debugging.
