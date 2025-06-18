@@ -1,10 +1,10 @@
-# Lab 8a: Working with Loops in Python
+# Lab 8a Working with Loops in Python
 
 In this lab, you'll explore two types of loops in Python — `while` loops and `for` loops — using fun and practical examples.
 
 ---
 
-## Lab 8: The Guessing Game (While Loop)
+## Lab 8a: The Guessing Game (While Loop)
 
 This activity introduces the `while` loop by letting the user play a simple **Guess the Number** game.
 
@@ -28,7 +28,7 @@ You guessed 7. That is correct! You win!
 ---
 
 
-# Lab 8b: Count to 100 (For Loop)
+## Lab 8b: Count to 100 (For Loop)
 
 This simple loop demonstrates how to use a `for` loop with a `range()` function to **count up to 99** (because Python’s `range()` stops before the upper limit).
 
@@ -37,7 +37,7 @@ This simple loop demonstrates how to use a `for` loop with a `range()` function 
 - How to use `range(start, stop)` to control iteration  
 - The difference between `for` and `while` loops
 
-### 🧾 Sample Output
+### Sample Output
 Count to 100!  
 1  
 2  

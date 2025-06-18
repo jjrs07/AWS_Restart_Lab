@@ -2,12 +2,13 @@
 
 This lab introduces you to Python’s built-in **numeric and boolean data types**.
 
-You'll learn:
+---
+## What You'll learn:
 - The difference between `int`, `float`, and `complex` numbers
 - What boolean values (`True` and `False`) represent
 - How to check the data type of a variable using `type()`
 
-### Sample Output
+## Sample Output
 
 Python has three numeric types: int, float, and complex  
 1  

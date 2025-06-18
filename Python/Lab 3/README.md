@@ -2,7 +2,8 @@
 
 This lab introduces you to one of the most important data types in Python: **strings**!
 
-You'll learn how to:
+---
+## What You'll learn:
 - Store and print string values
 - Identify a variable’s data type using `type()`
 - Combine strings through **concatenation**

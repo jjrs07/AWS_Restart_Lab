@@ -2,11 +2,6 @@
 
 In this lab, you’ll learn how to loop through a list with **mixed data types** — and identify what each item is.
 
-You’ll get comfortable with:
-- Python’s `type()` function
-- Using a `for` loop to inspect each value
-- Understanding how Python treats numbers, strings, booleans, and more
-
 ---
 
 ## What You'll Learn
@@ -15,10 +10,11 @@ You’ll get comfortable with:
 - How to iterate through each item using a `for` loop  
 - How to dynamically print the value **and** its type  
 - Why `"45"` (a string) is different from `45` (an integer)
+- A deeper understanding of how Python treats numbers, strings, booleans, and more.
 
 ---
 
-## 💻 Sample Output
+## Sample Output
 45 is of the data type <class 'int'>  
 290578 is of the data type <class 'int'>  
 1.02 is of the data type <class 'float'>  

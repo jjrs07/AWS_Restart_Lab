@@ -1,4 +1,4 @@
-# Lab Overview
+# Lab 9: Creating a Git Repository
 
 GitHub runs an instance of git, which is version-control software that runs in the cloud. GitHub is popular among open source projects and businesses.
 
