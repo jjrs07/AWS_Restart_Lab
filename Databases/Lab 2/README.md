@@ -3,6 +3,17 @@
 In this lab, you'll learn how to work with basic **Data Manipulation Language (DML)** operations such as **INSERT**, **UPDATE**, and **DELETE** in a MySQL database.
 
 ---
+## What You'll Learn
+- How to insert new records into a MySQL table using INSERT
+- How to update existing records using the UPDATE statement
+- How to delete records using DELETE
+- How to disable foreign key checks to allow deletion in related tables
+- How to import data using .sql files via the terminal
+- How to verify inserted, updated, or deleted records using SELECT queries
+- How to securely transfer SQL files to EC2 using scp
+
+---
+
 ## Prerequisites
 1. Make sure the **world.sql** file is available in your local machine.  
 (If you haven't cloned the repositoy yet, download the file manually)

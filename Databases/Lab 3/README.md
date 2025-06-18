@@ -3,6 +3,14 @@ In this lab, you'll practice running basic SELECT queries to retrieve data from 
 
 ---
 
+## What You'll Learn
+- How to use the SELECT statement to retrieve all or specific columns from a table
+- How to sort results using ORDER BY in ascending or descending order
+- How to rename columns using AS for better readability
+- How to use WHERE for filtering based on conditions
+- How to use COUNT(*) to get the number of records in a table
+- How to combine filters using AND for more complex queries
+
 ## Prerequisites
 1. Your EC2 instance with MariaDB is running and accessible.
 2. Completed Lab 2
