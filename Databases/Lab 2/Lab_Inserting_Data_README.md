@@ -10,21 +10,25 @@ In this lab, you'll learn how to work with basic **Data Manipulation Language (D
 
 Use SCP to import file from your local desktop/laptop to EC2 instance
 
+---
+
 ### Command Example
 scp -i C:\AWS\keypair.pem C:\AWS\world.sql ec2-user@ec2-xx-xx-xx-xx.compute-1.amazonaws.com:/home/ec2-user/
 
+---
 ### Insert Data into the world.country Table
 NOTE: Ensure that the country table exist, if now run again the create table country script from Lab 1.
 
 `mysql -u root -p < sql/insert.sql`
 
+---
+
 ### Verify the Inserted Records
 `SELECT * FROM world.country WHERE Code IN ('IRL', 'AUS');`
 
-
 ---
 
-### 3. 📝 Update Rows in the Table
+### Update Rows in the Table
 
 ```sql
 -- Set population of all countries to 0
@@ -36,8 +40,7 @@ UPDATE world.country SET Population = 100, SurfaceArea = 100;
 
 ---
 
-### 4. 🗑️ Delete Rows from the Table
-
+### Delete Rows from the Table
 Temporarily disable foreign key checks:
 
 ```sql
@@ -53,7 +56,7 @@ SELECT * FROM world.country;
 
 ---
 
-### 5. 📂 Import Data Using an SQL File
+### 5. Import Data Using an SQL File
 
 If you have a file like `world.sql`, you can import it by running:
 
