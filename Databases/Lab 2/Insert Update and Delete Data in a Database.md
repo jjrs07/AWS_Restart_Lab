@@ -38,4 +38,3 @@ Connect to MySQL database and verify if the data was inserted.
 
 
 
-hI6jFHA3xtMtWuJ7l0f1g/A1sN4U3+No

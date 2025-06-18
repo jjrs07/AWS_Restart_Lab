@@ -2,6 +2,7 @@
 
 This guide walks you through creating an Amazon EC2 instance with **MariaDB** pre-installed using **User Data scripts**, and how to securely access the MariaDB server from your terminal.
 
+- You will be using this EC2 instance in all the database labs.
 ---
 
 ## What You'll Learn
@@ -27,6 +28,15 @@ yum install -y mariadb-server
 systemctl start mariadb
 systemctl enable mariadb
 ```
+
+### User Data Script (Amazon Linux 2023)
+```bash
+#!/bin/bash
+dnf update -y
+dnf install -y mariadb105-server
+systemctl enable --now mariadb
+```
+
 
 ### User Data Script (Ubuntu)
 
