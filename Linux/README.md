@@ -59,7 +59,7 @@ This guide will help you set up a virtual Linux environment so you can safely ex
    - Restart your PC when prompted
    - Open Ubuntu from Start Menu and begin using Linux commands
 
-  More info: https://learn.microsoft.com/en-us/windows/wsl/
+    More info: https://learn.microsoft.com/en-us/windows/wsl/
 
 3. **Use Docker (for advance users)**  
     If you already have Docker Desktop installed:
