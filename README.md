@@ -49,6 +49,11 @@ If you have lab exercises you'd like to share, feel free to:
 
 Let’s help more people build their cloud foundations, one lab at a time.
 
+3. **Lab Index**  
+[Linux](./Linux/README.md)  
+[Databases](./Databases/README.md)  
+[Python](./Python/README.md)
+
 ## Disclaimer
 This project is an independent community resource and is not affiliated with AWS or the official AWS re/Start program.
 

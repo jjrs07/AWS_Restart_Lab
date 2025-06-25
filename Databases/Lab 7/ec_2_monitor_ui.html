@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS EC2 Monitor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      height: 30px;
+      margin-right: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #0073bb;
+    }
+    main {
+      padding: 30px;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .cpu {
+      font-size: 24px;
+      font-weight: bold;
+      color: #28a745;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_smile-header-desktop-en-white_59x35.png" alt="AWS Logo">
+    <nav>
+      <a href="#">Load Test</a>
+      <a href="#">RDS</a>
+    </nav>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Meta-Data</h2>
+      <table>
+        <tr>
+          <th>Meta-Data</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>InstanceId</td>
+          <td id="instance-id">i-07ae9f8b551a3d166</td>
+        </tr>
+        <tr>
+          <td>Availability Zone</td>
+          <td id="availability-zone">us-west-2b</td>
+        </tr>
+      </table>
+      <div>
+        <p>Current CPU Load: <span class="cpu" id="cpu-load">0%</span></p>
+      </div>
+    </div>
+  </main>
+  <script>
+    // Simulated CPU load update (replace with actual API call or CloudWatch metrics if needed)
+    function simulateCPULoad() {
+      const load = Math.floor(Math.random() * 101); // 0% - 100%
+      document.getElementById("cpu-load").textContent = load + "%";
+    }
+    setInterval(simulateCPULoad, 3000);
+  </script>
+</body>
+</html>
