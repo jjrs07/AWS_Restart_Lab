@@ -88,6 +88,16 @@ Remove anonymous users
 Disallow root remote login
 Remove test databases
 
+## Databases Lab  
+[Lab 1 - Database Table Operations](./Lab%201/README.md)  
+[Lab 2 - Inserting, Updating, and Deleting Data in MySQL](./Lab%202/README.md)  
+[Lab 3 - Selecting Data from a Database](./Lab%203/README.md)  
+[Lab 4 - Performing a Conditional Search](./Lab%204/README.md)  
+[Lab 5 - Working with Functions](./Lab%205/README.md)  
+[Lab 6 - Organizing Data](./Lab%206/README.md)  
+[Lab 7 - Build Your Database Server and Interact with Your DB Using an App](./Lab%207/README.md)
+
+
 ## Summary
 | Step | Description                     |
 |------|---------------------------------|
