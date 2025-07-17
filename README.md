@@ -37,6 +37,8 @@ Labs are organized by topic and difficulty level. Each folder contains:
 [Linux](./Linux/README.md)  
 [Databases](./Databases/README.md)  
 [Python](./Python/README.md)
+[CloudFormation](./CloudFormation/README.md)
+[Lambda](./Lambda/Challenge_Lab.md)
 
 
 ## Clear instructions in README.md  
