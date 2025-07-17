@@ -1,5 +1,8 @@
 # AWS re/Start Lab Compilation
 
+**Heads up!** This repo’s a work in progress — more updates coming soon.
+*(Some folders may be empty for now — content’s on the way!)*  
+
 Welcome to the **AWS re/Start Lab Compilation** repository!  
 This project is a curated collection of hands-on labs inspired by the AWS re/Start program — created to help you strengthen your foundational IT skills through practical exercises in **Linux**, **Python**, and **Databases**.
 
